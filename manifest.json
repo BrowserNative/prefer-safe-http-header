@@ -1,0 +1,15 @@
+{
+   "name": "Enable prefer: safe HTTP Header",
+   "description": "Sends prefer: safe HTTP Header with every web request.",
+   "background": {
+      "scripts": [ "background.js" ]
+   }, 
+   "icons": {
+      "128": "128.png",
+      "48": "48.png"
+   },
+   "manifest_version": 2,
+   "permissions": [ "webRequest", "<all_urls>", "webRequestBlocking" ],
+   "version": "0.1",
+   "homepage_url": "http://browsernative.com/prefer-safe-http-header-parental-control-333/"
+}
